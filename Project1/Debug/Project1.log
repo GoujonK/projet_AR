@@ -1,0 +1,10 @@
+﻿  RobustMatcher.cpp
+  main.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::VideoCapture::VideoCapture(void)" (??0VideoCapture@cv@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall cv::VideoCapture::~VideoCapture(void)" (??1VideoCapture@cv@@UAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: virtual bool __thiscall cv::VideoCapture::open(int)" (?open@VideoCapture@cv@@UAE_NH@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: virtual bool __thiscall cv::VideoCapture::isOpened(void)const " (?isOpened@VideoCapture@cv@@UBE_NXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: virtual bool __thiscall cv::VideoCapture::set(int,double)" (?set@VideoCapture@cv@@UAE_NHN@Z) referenced in function _main
+D:\Users\Tnaw\Desktop\Nouveau dossier.0\réunion_mardi-05-12-2017\Project1\Debug\Project1.exe : fatal error LNK1120: 6 unresolved externals
